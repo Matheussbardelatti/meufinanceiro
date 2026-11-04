@@ -80,7 +80,7 @@ const num=id=>Number(document.getElementById(id)?.value||0);
 const val=(id,v)=>{if(document.getElementById(id))document.getElementById(id).value=v??''};
 const today=new Date(); const ym=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
 const defaultData={
- profile:{gross:2690.37,net:0,payday:5,cash:0},
+ profile:{gross:0.00,net:0,payday:5,cash:0},
  
  fixed:[
  {id:1,name:'Casa',value:500,cat:'Casa',day:5},
